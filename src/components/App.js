@@ -29,13 +29,14 @@ const App = () => {
             const jsonTask = await data.json();
 
             setTasks(jsonTask);
-
+            console.log('Tasks', tasks);
             setIsLoading(false);
         }
         getTask();
 
     }, [UserId]);
 
+console.log('Tasks', tasks);
 
     const handleAddTask = () => {
         const title = document.querySelector('#task').value;

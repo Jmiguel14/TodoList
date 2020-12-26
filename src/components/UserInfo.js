@@ -3,7 +3,7 @@ import {Descriptions} from "antd";
 
 const UserInfo = ({users}) => (
     <>
-        <Descriptions title="Información del Usuario" bordered>
+        <Descriptions title="Información del Usuario" p>
             <Descriptions.Item label="Nombre: ">{users.name}</Descriptions.Item>
             <Descriptions.Item label="Usurio">{users.username}</Descriptions.Item>
             <Descriptions.Item label="Email">{users.email}</Descriptions.Item>
