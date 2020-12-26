@@ -14,5 +14,4 @@ const UserInfo = ({users}) => (
 )
 
 
-
 export default UserInfo;
